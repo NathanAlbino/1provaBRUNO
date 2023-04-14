@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+    font-size: 62.5;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    width: 10rem;
+    right: 10rem;
+    display: inline-block;
+    padding: 1rem;
+}
+#foto{
+    display: flex;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+#nome{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    
+}
+#campo{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 60rem;
+}
+    
+#botao{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5%;
+    margin: 1rem;
+}
+#retangulo{
+    width: 50rem;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 0.4rem solid black;
+    border-radius: 8%;
+    background-color: rgb(0, 0, 0);
+}
+input{
+    width: 60rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100rem;
+}
